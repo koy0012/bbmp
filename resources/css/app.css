@@ -1,0 +1,143 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.error {
+ color:crimson;   
+}
+
+.dropdown-content {
+    z-index: 1;
+} 
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start; 
+
+    @apply mb-2
+}
+
+.input-group label {
+    text-transform: capitalize;
+}
+
+.input-subgroup {
+    @apply
+    flex flex-col w-full;
+}
+
+.my-post {
+    @apply
+    w-full input input-bordered rounded-lg 
+    !bg-slate-100 
+    text-lg
+    border-none
+}
+
+.my-post-remove-img {
+    @apply
+    absolute w-full h-full flex justify-end p-1 
+}
+
+.my-post-remove-img svg {
+    @apply
+    !cursor-pointer
+    absolute
+    z-10
+}
+
+
+body {
+    @apply 
+        font-medium
+        text-slate-700
+        
+}
+
+.db-nav {
+    @apply 
+    navbar bg-base-300 text-white relative z-[1]
+
+}
+
+.select2-selection.select2-selection--single {
+    height: 45px;
+    vertical-align: middle;
+    display: flex;
+    align-items: center;
+}
+
+.select2-selection.select2-selection--single .select2-selection__arrow {
+    height: 100%;
+}
+
+.select2.select2-container.select2-container--default {
+    width: 100%;
+}
+
+
+.dataTables_wrapper .dataTables_length select {
+    width: 70px;
+}
+  
+.side-nav-item {
+    @apply
+    flex 
+    items-center 
+    p-2 
+    text-stone-100
+    rounded-lg 
+    dark:text-white 
+    hover:bg-slate-100 
+    dark:hover:bg-slate-300 
+}
+
+.side-nav-svg {
+    @apply
+    w-5 h-5 text-gray-100 transition duration-75 dark:text-gray-400
+}
+
+.text-info {
+    @apply
+    text-sm font-medium 
+}
+
+.form-select {
+    height: 45px!important;
+    display: flex!important;
+    align-items: center;
+}
+
+.form-select  .select2-selection__arrow {
+    height: 100%!important;
+}
+
+.app-card {
+    @apply
+    block 
+    max-w-sm p-6 
+    bg-white border 
+    border-gray-200 
+    rounded-lg shadow 
+    hover:bg-gray-100 
+    dark:bg-gray-800 
+    dark:border-gray-700 
+    dark:hover:bg-gray-700
+}
+
+.app-plate {
+    @apply
+    w-full p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-6 md:p-8 dark:bg-gray-800 dark:border-gray-700
+}
+
+.btn-success {
+    @apply
+        !text-white
+}
+
+.input-cutter {
+    @apply
+    grid grid-cols-1 lg:grid-cols-2 gap-3
+}

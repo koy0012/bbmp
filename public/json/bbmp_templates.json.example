@@ -1,0 +1,5 @@
+//follow this format and remove this comment and the .example from the filename
+//this is a key value pair format, "user_id:base template"
+{
+    "560a9f69-0bd0-4ace-81ac-e180b23716b5" : "img/templates/rsap_default_id.jpg"
+}

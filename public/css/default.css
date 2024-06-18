@@ -1,0 +1,18 @@
+
+.login-theme {
+    background-image: url("/img/login-background.jpg"); 
+    background-size: cover;
+    background-position-y: bottom;
+}
+
+.reset-theme {
+    background-image: url("/img/reset-background.jpg"); 
+    background-size: cover;
+    background-position-y: bottom;
+}
+
+.forgot-theme {
+    background-image: url("/img/forgot-background.jpg"); 
+    background-size: cover;
+    background-position-y: bottom;
+}

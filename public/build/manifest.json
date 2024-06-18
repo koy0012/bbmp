@@ -1,0 +1,22 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-2AQEpadA.css",
+    "isEntry": true,
+    "src": "resources/css/app.css"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app--JwbwR54.js",
+    "isEntry": true,
+    "src": "resources/js/app.js"
+  },
+  "resources/js/session.js": {
+    "file": "assets/session-qRqHz9FN.js",
+    "isEntry": true,
+    "src": "resources/js/session.js"
+  },
+  "resources/js/spinthewheel.js": {
+    "file": "assets/spinthewheel-6ZJ_DAVC.js",
+    "isEntry": true,
+    "src": "resources/js/spinthewheel.js"
+  }
+}
